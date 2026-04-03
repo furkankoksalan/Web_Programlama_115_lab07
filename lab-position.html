@@ -42,11 +42,11 @@
         .card-wrapper {
             position: relative;          /* relative: absolute öğelerin referansı */
             width: 100%;
-            max-width: 700px;
-            min-height: 420px;
+            max-width: 900px;
+            min-height: 540px;
             background: linear-gradient(135deg, #d8d8f0 0%, #c8c0e8 40%, #b8b0e0 70%, #cad0f0 100%);
             border-radius: 28px;
-            padding: 80px 56px 100px;
+            padding: 100px 72px 120px;
             box-shadow: 0 16px 60px rgba(100, 80, 180, 0.28);
             overflow: visible;
             animation: cardFadeIn 0.8s ease both;
@@ -66,10 +66,10 @@
         /* ===== DEKORATIF DAİRELER (üst üste, z-index ile) ===== */
         .deco-circle-1 {
             position: absolute;          /* absolute – kapsayıcıya göre */
-            right: -40px;
+            right: 30px;
             bottom: 50px;
-            width: 240px;
-            height: 240px;
+            width: 220px;
+            height: 220px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.18);
             z-index: 0;                  /* en altta */
@@ -77,10 +77,10 @@
 
         .deco-circle-2 {
             position: absolute;
-            right: 30px;
-            bottom: 10px;
-            width: 160px;
-            height: 160px;
+            right: 70px;
+            bottom: 20px;
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.25);
             z-index: 1;                  /* ortada */
@@ -157,8 +157,8 @@
         /* ===== KUTU – "Konum" (orta-sağ, absolute) ===== */
         .badge-location {
             position: absolute;
-            bottom: 130px;
-            right: -10px;
+            bottom: 140px;
+            right: 40px;
             background: #fff;
             color: #333;
             font-size: 0.95em;
@@ -180,8 +180,8 @@
         /* ===== ROZET 3 – "Son Kayıt" (sağ alt, absolute + float animasyonu) ===== */
         .badge-deadline {
             position: absolute;
-            bottom: 36px;
-            right: 36px;
+            bottom: 48px;
+            right: 48px;
             background: #f5d0d0;
             color: #7a1a1a;
             font-size: 0.9em;
